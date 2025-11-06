@@ -36,6 +36,7 @@ const translations = {
     // Portfolio
     'portfolio.title': 'Our Companies',
     'portfolio.subtitle': 'Companies fully or partly owned by Merit Business',
+    'portfolio.visit': 'Visit Website',
     
     // History
     'history.title': 'Our Journey',
@@ -76,6 +77,7 @@ const translations = {
     // Portfolio
     'portfolio.title': 'شركاتنا',
     'portfolio.subtitle': 'الشركات المملوكة كلياً أو جزئياً من قبل ميريت للأعمال',
+    'portfolio.visit': 'زيارة الموقع',
     
     // History
     'history.title': 'رحلتنا',
@@ -116,6 +118,7 @@ const translations = {
     // Portfolio
     'portfolio.title': 'Наши компании',
     'portfolio.subtitle': 'Компании, полностью или частично принадлежащие Merit Business',
+    'portfolio.visit': 'Посетить сайт',
     
     // History
     'history.title': 'Наш путь',

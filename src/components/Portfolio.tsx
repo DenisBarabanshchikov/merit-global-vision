@@ -1,5 +1,5 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Building2 } from 'lucide-react';
 
 const Portfolio = () => {
   const { t, language } = useLanguage();
@@ -45,21 +45,33 @@ const Portfolio = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {companies.map((company, index) => (
             <a
               key={index}
               href={company.website}
-              className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+              className="group relative overflow-hidden rounded-3xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-border"
             >
-              <div className={`bg-gradient-to-br ${company.color} p-8 h-48 flex flex-col justify-between`}>
-                <div className="flex-1 flex items-center justify-center">
-                  <h3 className="text-xl font-bold text-white text-center">
+              {/* Gradient overlay on hover */}
+              <div className={`absolute inset-0 bg-gradient-to-br ${company.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`} />
+              
+              <div className="relative p-8 flex flex-col items-center space-y-6 min-h-[280px]">
+                {/* Logo Placeholder */}
+                <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${company.color} flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform duration-500`}>
+                  <Building2 className="w-10 h-10 text-white" strokeWidth={1.5} />
+                </div>
+                
+                {/* Company Name */}
+                <div className="flex-1 flex items-center">
+                  <h3 className="text-xl font-bold text-foreground text-center group-hover:text-primary transition-colors duration-300">
                     {company.name}
                   </h3>
                 </div>
-                <div className="flex justify-end">
-                  <ExternalLink className="w-5 h-5 text-white/80 group-hover:text-white transition-colors" />
+                
+                {/* Visit Link */}
+                <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground group-hover:text-primary transition-colors duration-300">
+                  <span>{t('portfolio.visit')}</span>
+                  <ExternalLink className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" />
                 </div>
               </div>
             </a>
