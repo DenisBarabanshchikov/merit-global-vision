@@ -45,7 +45,7 @@ const Portfolio = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto [&>*:last-child:nth-child(3n-1)]:lg:col-start-2">
           {companies.map((company, index) => (
             <a
               key={index}
