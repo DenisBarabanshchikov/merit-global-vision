@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting…</title>
+    <meta name="robots" content="noindex">
+    <meta http-equiv="refresh" content="0; url=/merit-global-vision/">
+    <script>
+      // GitHub Pages SPA redirect script
+      // Adapted from https://github.com/rafgraph/spa-github-pages
+      (function(l) {
+        var segmentCount = 1; // repo depth for user.github.io/repo
+        var path = l.pathname.split('/').slice(0, 1 + segmentCount).join('/');
+        var newUrl = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+          path + '/?/' + l.pathname.split('/').slice(1 + segmentCount).join('/') + l.search + l.hash;
+        l.replace(newUrl);
+      })(window.location);
+    </script>
+  </head>
+  <body></body>
+</html>
