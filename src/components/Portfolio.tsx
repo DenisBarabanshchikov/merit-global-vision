@@ -59,11 +59,11 @@ const Portfolio = () => {
               
               <div className="relative p-8 flex flex-col items-center space-y-6 min-h-[280px]">
                 {/* Logo */}
-                <div className={`w-20 h-20 rounded-2xl ${company.logo ? 'bg-white' : `bg-gradient-to-br ${company.color}`} flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform duration-500`}>
+                <div className={`w-32 h-32 rounded-2xl ${company.logo ? 'bg-white' : `bg-gradient-to-br ${company.color}`} flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform duration-500`}>
                   {company.logo ? (
-                    <img src={company.logo} alt={`${company.name} logo`} className="w-16 h-16 object-contain" />
+                    <img src={company.logo} alt={`${company.name} logo`} className="w-28 h-28 object-contain" />
                   ) : (
-                    <Building2 className="w-10 h-10 text-white" strokeWidth={1.5} />
+                    <Building2 className="w-16 h-16 text-white" strokeWidth={1.5} />
                   )}
                 </div>
                 
