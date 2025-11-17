@@ -23,7 +23,7 @@ const translations = {
     
     // About
     'about.title': 'Welcome to Merit Business',
-    'about.intro': 'I am Ali Alfaddaghi, founder and owner of Merit Business. Here I share some of my achievements and a brief history of my business journey.',
+    'about.intro': 'Merit Business have been established to oversee the investments and new opportunities on behalf of its founder and owner Mr. Ali M Alfaddaghi.',
     'about.address': 'Address',
     'about.addressValue': '7991-Alryan Riyadh, 14211, Kingdom of Saudi Arabia',
     
@@ -35,7 +35,7 @@ const translations = {
     
     // Portfolio
     'portfolio.title': 'Our Companies',
-    'portfolio.subtitle': 'Companies fully or partly owned by Merit Business',
+    'portfolio.subtitle': 'Companies that are fully or partly owned by the owner of Merit Business',
     'portfolio.visit': 'Visit Website',
     
     // History
@@ -64,7 +64,7 @@ const translations = {
     
     // About
     'about.title': 'مرحباً بكم في ميريت للأعمال',
-    'about.intro': 'أنا علي الفداغي، مؤسس ومالك شركة ميريت للأعمال. هنا أشارك بعض إنجازاتي ولمحة موجزة عن رحلتي في عالم الأعمال.',
+    'about.intro': 'تم تأسيس شركة ميريت للأعمال للإشراف على الاستثمارات والفرص الجديدة نيابة عن مؤسسها ومالكها السيد علي م الفداغي.',
     'about.address': 'العنوان',
     'about.addressValue': '٧٩٩١-الريان الرياض، ١٤٢١١، المملكة العربية السعودية',
     
@@ -76,7 +76,7 @@ const translations = {
     
     // Portfolio
     'portfolio.title': 'شركاتنا',
-    'portfolio.subtitle': 'الشركات المملوكة كلياً أو جزئياً من قبل ميريت للأعمال',
+    'portfolio.subtitle': 'الشركات المملوكة كلياً أو جزئياً من قبل مالك شركة ميريت للأعمال',
     'portfolio.visit': 'زيارة الموقع',
     
     // History
@@ -105,7 +105,7 @@ const translations = {
     
     // About
     'about.title': 'Добро пожаловать в Merit Business',
-    'about.intro': 'Я Али Альфаддаги, основатель и владелец Merit Business. Здесь я делюсь некоторыми своими достижениями и краткой историей моего бизнес-пути.',
+    'about.intro': 'Merit Business была создана для надзора за инвестициями и новыми возможностями от имени ее основателя и владельца г-на Али М Альфаддаги.',
     'about.address': 'Адрес',
     'about.addressValue': '7991-Алриян Эр-Рияд, 14211, Королевство Саудовская Аравия',
     
@@ -117,7 +117,7 @@ const translations = {
     
     // Portfolio
     'portfolio.title': 'Наши компании',
-    'portfolio.subtitle': 'Компании, полностью или частично принадлежащие Merit Business',
+    'portfolio.subtitle': 'Компании, которые полностью или частично принадлежат владельцу Merit Business',
     'portfolio.visit': 'Посетить сайт',
     
     // History
