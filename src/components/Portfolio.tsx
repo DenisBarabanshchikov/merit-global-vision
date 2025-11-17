@@ -3,6 +3,7 @@ import { ExternalLink, Building2 } from 'lucide-react';
 import nordWaterLogo from '@/assets/nord-water-logo.svg';
 import bravoSolarLogo from '@/assets/bravo-solar-logo.svg';
 import alfaddaghiLogo from '@/assets/alfaddaghi-logo-transparent.png';
+import realEstateLogo from '@/assets/alfaddaghi-real-estate-logo.png';
 
 const Portfolio = () => {
   const { t, language } = useLanguage();
@@ -23,8 +24,9 @@ const Portfolio = () => {
     },
     {
       name: 'Mohammed A Alfaddaghi for Real Estate',
-      website: '#',
+      website: null,
       color: 'from-indigo-600 to-indigo-800',
+      logo: realEstateLogo,
     },
     {
       name: 'New Age Power',
@@ -52,40 +54,49 @@ const Portfolio = () => {
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto [&>*:last-child:nth-child(3n-1)]:lg:col-start-2">
-          {companies.map((company, index) => (
-            <a
-              key={index}
-              href={company.website}
-              className="group relative overflow-hidden rounded-3xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-border"
-            >
-              {/* Gradient overlay on hover */}
-              <div className={`absolute inset-0 bg-gradient-to-br ${company.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`} />
-              
-              <div className="relative p-8 flex flex-col items-center space-y-6 min-h-[280px]">
-                {/* Logo */}
-                <div className={`w-32 h-32 rounded-2xl ${company.logo ? 'bg-white' : `bg-gradient-to-br ${company.color}`} flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform duration-500`}>
-                  {company.logo ? (
-                    <img src={company.logo} alt={`${company.name} logo`} className="w-28 h-28 object-contain" />
-                  ) : (
-                    <Building2 className="w-16 h-16 text-white" strokeWidth={1.5} />
+          {companies.map((company, index) => {
+            const CardWrapper = company.website ? 'a' : 'div';
+            const cardProps = company.website 
+              ? { href: company.website, target: '_blank', rel: 'noopener noreferrer' }
+              : {};
+            
+            return (
+              <CardWrapper
+                key={index}
+                {...cardProps}
+                className="group relative overflow-hidden rounded-3xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-border"
+              >
+                {/* Gradient overlay on hover */}
+                <div className={`absolute inset-0 bg-gradient-to-br ${company.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`} />
+                
+                <div className="relative p-8 flex flex-col items-center space-y-6 min-h-[280px]">
+                  {/* Logo */}
+                  <div className={`w-32 h-32 rounded-2xl ${company.logo ? 'bg-white' : `bg-gradient-to-br ${company.color}`} flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform duration-500`}>
+                    {company.logo ? (
+                      <img src={company.logo} alt={`${company.name} logo`} className="w-28 h-28 object-contain" />
+                    ) : (
+                      <Building2 className="w-16 h-16 text-white" strokeWidth={1.5} />
+                    )}
+                  </div>
+                  
+                  {/* Company Name */}
+                  <div className="flex-1 flex items-center">
+                    <h3 className="text-xl font-bold text-foreground text-center group-hover:text-primary transition-colors duration-300">
+                      {company.name}
+                    </h3>
+                  </div>
+                  
+                  {/* Visit Link - Only show if website exists */}
+                  {company.website && (
+                    <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground group-hover:text-primary transition-colors duration-300">
+                      <span>{t('portfolio.visit')}</span>
+                      <ExternalLink className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" />
+                    </div>
                   )}
                 </div>
-                
-                {/* Company Name */}
-                <div className="flex-1 flex items-center">
-                  <h3 className="text-xl font-bold text-foreground text-center group-hover:text-primary transition-colors duration-300">
-                    {company.name}
-                  </h3>
-                </div>
-                
-                {/* Visit Link */}
-                <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground group-hover:text-primary transition-colors duration-300">
-                  <span>{t('portfolio.visit')}</span>
-                  <ExternalLink className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" />
-                </div>
-              </div>
-            </a>
-          ))}
+              </CardWrapper>
+            );
+          })}
         </div>
       </div>
     </section>
