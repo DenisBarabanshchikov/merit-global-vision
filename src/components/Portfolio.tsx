@@ -1,6 +1,7 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { ExternalLink, Building2 } from 'lucide-react';
 import nordWaterLogo from '@/assets/nord-water-logo.svg';
+import bravoSolarLogo from '@/assets/bravo-solar-logo.svg';
 
 const Portfolio = () => {
   const { t, language } = useLanguage();
@@ -32,6 +33,7 @@ const Portfolio = () => {
       name: 'Bravo Solar Energy Systems',
       website: '#',
       color: 'from-amber-600 to-amber-800',
+      logo: bravoSolarLogo,
     },
   ];
 
