@@ -17,6 +17,14 @@ const Navigation = () => {
 
   const isRTL = language === 'ar';
 
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+    e.preventDefault();
+    const element = document.querySelector(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <nav 
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
@@ -37,7 +45,8 @@ const Navigation = () => {
           
           <div className="hidden md:flex items-center gap-6">
             <a 
-              href="#about" 
+              href="#about"
+              onClick={(e) => handleSmoothScroll(e, '#about')}
               className={`font-medium hover:text-accent transition-colors ${
                 scrolled ? 'text-foreground' : 'text-white'
               }`}
@@ -45,7 +54,8 @@ const Navigation = () => {
               {t('nav.about')}
             </a>
             <a 
-              href="#vision" 
+              href="#vision"
+              onClick={(e) => handleSmoothScroll(e, '#vision')}
               className={`font-medium hover:text-accent transition-colors ${
                 scrolled ? 'text-foreground' : 'text-white'
               }`}
@@ -53,7 +63,8 @@ const Navigation = () => {
               {t('nav.vision')}
             </a>
             <a 
-              href="#portfolio" 
+              href="#portfolio"
+              onClick={(e) => handleSmoothScroll(e, '#portfolio')}
               className={`font-medium hover:text-accent transition-colors ${
                 scrolled ? 'text-foreground' : 'text-white'
               }`}
@@ -61,7 +72,8 @@ const Navigation = () => {
               {t('nav.portfolio')}
             </a>
             <a 
-              href="#history" 
+              href="#history"
+              onClick={(e) => handleSmoothScroll(e, '#history')}
               className={`font-medium hover:text-accent transition-colors ${
                 scrolled ? 'text-foreground' : 'text-white'
               }`}
@@ -69,7 +81,8 @@ const Navigation = () => {
               {t('nav.history')}
             </a>
             <a 
-              href="#contact" 
+              href="#contact"
+              onClick={(e) => handleSmoothScroll(e, '#contact')}
               className={`font-medium hover:text-accent transition-colors ${
                 scrolled ? 'text-foreground' : 'text-white'
               }`}
