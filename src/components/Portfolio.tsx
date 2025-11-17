@@ -1,5 +1,6 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { ExternalLink, Building2 } from 'lucide-react';
+import nordWaterLogo from '@/assets/nord-water-logo.svg';
 
 const Portfolio = () => {
   const { t, language } = useLanguage();
@@ -15,6 +16,7 @@ const Portfolio = () => {
       name: 'Oy Nord Water Ltd',
       website: '#',
       color: 'from-cyan-600 to-cyan-800',
+      logo: nordWaterLogo,
     },
     {
       name: 'Mohammed A Alfaddaghi for Real Estate',
@@ -56,9 +58,13 @@ const Portfolio = () => {
               <div className={`absolute inset-0 bg-gradient-to-br ${company.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`} />
               
               <div className="relative p-8 flex flex-col items-center space-y-6 min-h-[280px]">
-                {/* Logo Placeholder */}
-                <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${company.color} flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform duration-500`}>
-                  <Building2 className="w-10 h-10 text-white" strokeWidth={1.5} />
+                {/* Logo */}
+                <div className={`w-20 h-20 rounded-2xl ${company.logo ? 'bg-white' : `bg-gradient-to-br ${company.color}`} flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform duration-500`}>
+                  {company.logo ? (
+                    <img src={company.logo} alt={`${company.name} logo`} className="w-16 h-16 object-contain" />
+                  ) : (
+                    <Building2 className="w-10 h-10 text-white" strokeWidth={1.5} />
+                  )}
                 </div>
                 
                 {/* Company Name */}
