@@ -15,5 +15,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/merit-global-vision/", // Change this to "/your-repo-name/" if deploying to GitHub Pages
+  base: mode === "production" ? "/merit-global-vision/" : "/",
 }));
