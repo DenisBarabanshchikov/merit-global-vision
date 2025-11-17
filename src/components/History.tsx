@@ -5,20 +5,20 @@ const History = () => {
   const isRTL = language === 'ar';
 
   const milestones = [
-    { year: '1979-1981', event: 'Helped establish M&A Co Alfaddaghi Co and Alamttar Corp.' },
-    { year: '1984', event: 'Managed Alamttar Corp to have the largest market share in its field.' },
-    { year: '1985-1989', event: 'Led the restructuring of M&A Co Alfaddaghi.' },
-    { year: '1989-1990', event: 'Formed Alfaddaghi Group by merging the top management of M&A Co and Alamttar Corp.' },
-    { year: '1990', event: 'Formed Matanah Ltd for Service and Auto Parts.' },
-    { year: '1992', event: 'Formed Alfaddaghi for Commerce and Services.' },
-    { year: '1994', event: 'Formed State of the Art Technology (SOFT) for software and telecommunication.' },
-    { year: '1995', event: 'Led the efforts and negotiations to acquire shares of Alfaddaghi Group.' },
-    { year: '1997', event: 'Formed Mohammed A & Partners.' },
-    { year: '2005', event: 'Acquired 100% of the shares of Oy Nord Water Ltd Finland.' },
-    { year: '2014', event: 'Won the Entrepreneurship Award from Saudi Aramco.' },
-    { year: '2014', event: 'Formed New Age Power.' },
-    { year: '2017', event: 'Formed Bravo Solar Energy Systems, Dubai, UAE.' },
-    { year: '2019-Present', event: 'Chairman of the Board of Alfaddaghi Group Of Companies.' },
+    { year: '1979-1981', eventKey: 'history.milestone.1' },
+    { year: '1984', eventKey: 'history.milestone.2' },
+    { year: '1985-1989', eventKey: 'history.milestone.3' },
+    { year: '1989-1990', eventKey: 'history.milestone.4' },
+    { year: '1990', eventKey: 'history.milestone.5' },
+    { year: '1992', eventKey: 'history.milestone.6' },
+    { year: '1994', eventKey: 'history.milestone.7' },
+    { year: '1995', eventKey: 'history.milestone.8' },
+    { year: '1997', eventKey: 'history.milestone.9' },
+    { year: '2005', eventKey: 'history.milestone.10' },
+    { year: '2014', eventKey: 'history.milestone.11' },
+    { year: '2014', eventKey: 'history.milestone.12' },
+    { year: '2017', eventKey: 'history.milestone.13' },
+    { year: '2019-Present', eventKey: 'history.milestone.14' },
   ];
 
   return (
@@ -59,7 +59,7 @@ const History = () => {
                     {milestone.year}
                   </div>
                   <p className="text-foreground">
-                    {milestone.event}
+                    {t(milestone.eventKey)}
                   </p>
                 </div>
               </div>
