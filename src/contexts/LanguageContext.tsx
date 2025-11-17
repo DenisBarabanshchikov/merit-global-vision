@@ -41,6 +41,20 @@ const translations = {
     // History
     'history.title': 'Our Journey',
     'history.milestones': 'Key Milestones',
+    'history.milestone.1': 'Helped establish M&A Co Alfaddaghi Co and Alamttar Corp.',
+    'history.milestone.2': 'Managed Alamttar Corp to have the largest market share in its field.',
+    'history.milestone.3': 'Led the restructuring of M&A Co Alfaddaghi.',
+    'history.milestone.4': 'Formed Alfaddaghi Group by merging the top management of M&A Co and Alamttar Corp.',
+    'history.milestone.5': 'Formed Matanah Ltd for Service and Auto Parts.',
+    'history.milestone.6': 'Formed Alfaddaghi for Commerce and Services.',
+    'history.milestone.7': 'Formed State of the Art Technology (SOFT) for software and telecommunication.',
+    'history.milestone.8': 'Led the efforts and negotiations to acquire shares of Alfaddaghi Group.',
+    'history.milestone.9': 'Formed Mohammed A & Partners.',
+    'history.milestone.10': 'Acquired 100% of the shares of Oy Nord Water Ltd Finland.',
+    'history.milestone.11': 'Won the Entrepreneurship Award from Saudi Aramco.',
+    'history.milestone.12': 'Formed New Age Power.',
+    'history.milestone.13': 'Formed Bravo Solar Energy Systems, Dubai, UAE.',
+    'history.milestone.14': 'Chairman of the Board of Alfaddaghi Group Of Companies.',
     
     // Contact
     'contact.title': 'Get in Touch',
@@ -82,6 +96,20 @@ const translations = {
     // History
     'history.title': 'رحلتنا',
     'history.milestones': 'المعالم الرئيسية',
+    'history.milestone.1': 'ساعد في تأسيس شركة M&A الفداغي وشركة العمطار.',
+    'history.milestone.2': 'إدارة شركة العمطار لتحقيق أكبر حصة سوقية في مجالها.',
+    'history.milestone.3': 'قاد إعادة هيكلة شركة M&A الفداغي.',
+    'history.milestone.4': 'تشكيل مجموعة الفداغي من خلال دمج الإدارة العليا لشركة M&A وشركة العمطار.',
+    'history.milestone.5': 'تأسيس شركة متانة المحدودة للخدمات وقطع غيار السيارات.',
+    'history.milestone.6': 'تأسيس شركة الفداغي للتجارة والخدمات.',
+    'history.milestone.7': 'تأسيس شركة SOFT لأحدث التقنيات للبرمجيات والاتصالات.',
+    'history.milestone.8': 'قيادة الجهود والمفاوضات للحصول على أسهم مجموعة الفداغي.',
+    'history.milestone.9': 'تأسيس شركة محمد أ وشركاه.',
+    'history.milestone.10': 'الاستحواذ على 100٪ من أسهم شركة Oy Nord Water Ltd فنلندا.',
+    'history.milestone.11': 'الفوز بجائزة ريادة الأعمال من أرامكو السعودية.',
+    'history.milestone.12': 'تأسيس شركة نيو إيج باور.',
+    'history.milestone.13': 'تأسيس شركة برافو لأنظمة الطاقة الشمسية، دبي، الإمارات العربية المتحدة.',
+    'history.milestone.14': 'رئيس مجلس إدارة مجموعة شركات الفداغي.',
     
     // Contact
     'contact.title': 'تواصل معنا',
@@ -123,6 +151,20 @@ const translations = {
     // History
     'history.title': 'Наш путь',
     'history.milestones': 'Ключевые вехи',
+    'history.milestone.1': 'Помогал создать компании M&A Co Alfaddaghi Co и Alamttar Corp.',
+    'history.milestone.2': 'Управлял Alamttar Corp для достижения наибольшей доли рынка в своей области.',
+    'history.milestone.3': 'Руководил реструктуризацией M&A Co Alfaddaghi.',
+    'history.milestone.4': 'Сформировал группу Alfaddaghi путем объединения высшего руководства M&A Co и Alamttar Corp.',
+    'history.milestone.5': 'Основал Matanah Ltd для обслуживания и автозапчастей.',
+    'history.milestone.6': 'Основал Alfaddaghi для коммерции и услуг.',
+    'history.milestone.7': 'Основал State of the Art Technology (SOFT) для программного обеспечения и телекоммуникаций.',
+    'history.milestone.8': 'Возглавил усилия и переговоры по приобретению акций группы Alfaddaghi.',
+    'history.milestone.9': 'Основал Mohammed A & Partners.',
+    'history.milestone.10': 'Приобрел 100% акций Oy Nord Water Ltd Финляндия.',
+    'history.milestone.11': 'Получил премию за предпринимательство от Saudi Aramco.',
+    'history.milestone.12': 'Основал New Age Power.',
+    'history.milestone.13': 'Основал Bravo Solar Energy Systems, Дубай, ОАЭ.',
+    'history.milestone.14': 'Председатель совета директоров группы компаний Alfaddaghi.',
     
     // Contact
     'contact.title': 'Свяжитесь с нами',
