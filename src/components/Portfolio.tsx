@@ -2,6 +2,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { ExternalLink, Building2 } from 'lucide-react';
 import nordWaterLogo from '@/assets/nord-water-logo.svg';
 import bravoSolarLogo from '@/assets/bravo-solar-logo.svg';
+import alfaddaghiLogo from '@/assets/alfaddaghi-logo.png';
 
 const Portfolio = () => {
   const { t, language } = useLanguage();
@@ -10,8 +11,9 @@ const Portfolio = () => {
   const companies = [
     {
       name: 'Mohammed A Alfaddaghi & Partners',
-      website: '#',
+      website: 'https://alfaddaghi.com/',
       color: 'from-blue-600 to-blue-800',
+      logo: alfaddaghiLogo,
     },
     {
       name: 'Oy Nord Water Ltd',
