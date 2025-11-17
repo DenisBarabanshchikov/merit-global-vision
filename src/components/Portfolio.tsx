@@ -4,6 +4,7 @@ import nordWaterLogo from '@/assets/nord-water-logo.svg';
 import bravoSolarLogo from '@/assets/bravo-solar-logo.svg';
 import alfaddaghiLogo from '@/assets/alfaddaghi-logo-transparent.png';
 import realEstateLogo from '@/assets/alfaddaghi-real-estate-logo.png';
+import newAgePowerLogo from '@/assets/new-age-power-logo.png';
 
 const Portfolio = () => {
   const { t, language } = useLanguage();
@@ -30,8 +31,9 @@ const Portfolio = () => {
     },
     {
       name: 'New Age Power',
-      website: '#',
+      website: null,
       color: 'from-purple-600 to-purple-800',
+      logo: newAgePowerLogo,
     },
     {
       name: 'Bravo Solar Energy Systems',
