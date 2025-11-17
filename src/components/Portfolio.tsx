@@ -15,7 +15,7 @@ const Portfolio = () => {
     },
     {
       name: 'Oy Nord Water Ltd',
-      website: '#',
+      website: 'https://nordwater.com/',
       color: 'from-cyan-600 to-cyan-800',
       logo: nordWaterLogo,
     },
@@ -31,7 +31,7 @@ const Portfolio = () => {
     },
     {
       name: 'Bravo Solar Energy Systems',
-      website: '#',
+      website: 'https://bravosolarenergy.com/',
       color: 'from-amber-600 to-amber-800',
       logo: bravoSolarLogo,
     },
