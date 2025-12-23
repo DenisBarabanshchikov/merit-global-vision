@@ -31,7 +31,7 @@ const translations = {
     'vision.title': 'Our Vision',
     'vision.text': 'We at Merits believe in diversity, excellence and endurance. We strive to be a global partner for cutting edge products and services.',
     'mission.title': 'Our Mission',
-    'mission.text': 'To realize our vision, we focus on strategic partnerships, teaming up with professionals in their respective fields, and creating maximum value for all stakeholders.',
+    'mission.text': 'To realize the vision, we are focusing on strategic partnerships, teaming up with professionals in their respective fields and creating the most value for all stakeholders.',
     
     // Portfolio
     'portfolio.title': 'Our Companies',
