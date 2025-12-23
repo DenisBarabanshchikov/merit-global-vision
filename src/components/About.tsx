@@ -14,9 +14,9 @@ const About = () => {
           </h2>
           
           <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
-            <p className="text-lg text-foreground leading-relaxed mb-8">
+            <div className="text-lg text-foreground leading-relaxed mb-8 whitespace-pre-line">
               {t('about.intro')}
-            </p>
+            </div>
             
             <div className="flex items-start gap-4 p-6 bg-secondary rounded-xl">
               <MapPin className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
