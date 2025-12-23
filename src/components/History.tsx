@@ -24,6 +24,19 @@ const History = () => {
   return (
     <section id="history" className="py-20 bg-white" dir={isRTL ? 'rtl' : 'ltr'}>
       <div className="container mx-auto px-4">
+        {/* History Intro Block */}
+        <div className="max-w-4xl mx-auto mb-16">
+          <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl shadow-xl p-8 md:p-12 text-white">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              {t('history.intro.title')}
+            </h2>
+            <div className="text-lg leading-relaxed opacity-90 whitespace-pre-line">
+              {t('history.intro.text')}
+            </div>
+          </div>
+        </div>
+
+        {/* Our Journey Section */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
             {t('history.title')}
