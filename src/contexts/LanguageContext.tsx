@@ -35,7 +35,7 @@ const translations = {
     
     // Portfolio
     'portfolio.title': 'Our Companies',
-    'portfolio.subtitle': 'Companies that are fully or partly owned by the owner of Merit Business',
+    'portfolio.subtitle': 'Some of the companies that are owned fully or partly by us',
     'portfolio.visit': 'Visit Website',
     
     // History
