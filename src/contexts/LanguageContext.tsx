@@ -23,7 +23,7 @@ const translations = {
     
     // About
     'about.title': 'Welcome to Merit Business',
-    'about.intro': 'Merit Business have been established to oversee the investments and new opportunities on behalf of its founder and owner Mr. Ali M Alfaddaghi.',
+    'about.intro': 'Message from the President\n\nWelcome to Merit Business webpage, Merit Business is a management and investment company that oversee the owner existing companies and investments. It is also focused on new opportunities in a variety of fields such as: Energy, renewable and recycling, innovative purchasing, communication systems, data centers, medical, novelty food and new innovations. We are also capable of giving advice and consultancy to large newcomers to the market interested in gaining foothold in the local market with best possible setup.\n\nFounder and President\nAli M Alfaddaghi',
     'about.address': 'Address',
     'about.addressValue': '7991-Alryan Riyadh, 14211, Kingdom of Saudi Arabia',
     
