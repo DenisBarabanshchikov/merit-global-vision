@@ -29,7 +29,7 @@ const translations = {
     
     // Vision & Mission
     'vision.title': 'Our Vision',
-    'vision.text': 'At Merit Business, we believe in diversity, excellence, and endurance. We strive to be a global partner for cutting-edge products and services.',
+    'vision.text': 'We at Merits believe in diversity, excellence and endurance. We strive to be a global partner for cutting edge products and services.',
     'mission.title': 'Our Mission',
     'mission.text': 'To realize our vision, we focus on strategic partnerships, teaming up with professionals in their respective fields, and creating maximum value for all stakeholders.',
     
