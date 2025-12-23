@@ -41,6 +41,8 @@ const translations = {
     // History
     'history.title': 'Our Journey',
     'history.milestones': 'Key Milestones',
+    'history.intro.title': 'History',
+    'history.intro.text': 'My Family has been in business for more than 70 years and I have started in business with them in the early 1980s. I started my journey in the technical side and moved my way up to the management side. During the past 40 years I have managed, formed, restructured, merged and acquired different companies in the fields of Agriculture, Agriculture machinery, Auto, power generation, telecommunication and software, renewable energy and food and beverage.\n\nSome of the above companies were in Saudi Arabia, Dubai, Italy, England, Finland, China and The United States.',
     'history.milestone.1': 'Helped establish M&A Co Alfaddaghi Co and Alamttar Corp.',
     'history.milestone.2': 'Managed Alamttar Corp to have the largest market share in its field.',
     'history.milestone.3': 'Led the restructuring of M&A Co Alfaddaghi.',
@@ -96,6 +98,8 @@ const translations = {
     // History
     'history.title': 'رحلتنا',
     'history.milestones': 'المعالم الرئيسية',
+    'history.intro.title': 'التاريخ',
+    'history.intro.text': 'عائلتي في مجال الأعمال منذ أكثر من 70 عامًا وقد بدأت العمل معهم في أوائل الثمانينيات. بدأت رحلتي في الجانب التقني وانتقلت إلى الجانب الإداري. خلال الأربعين عامًا الماضية قمت بإدارة وتأسيس وإعادة هيكلة ودمج واستحواذ شركات مختلفة في مجالات الزراعة والآلات الزراعية والسيارات وتوليد الطاقة والاتصالات والبرمجيات والطاقة المتجددة والأغذية والمشروبات.\n\nبعض الشركات المذكورة أعلاه كانت في المملكة العربية السعودية ودبي وإيطاليا وإنجلترا وفنلندا والصين والولايات المتحدة.',
     'history.milestone.1': 'ساعد في تأسيس شركة M&A الفداغي وشركة العمطار.',
     'history.milestone.2': 'إدارة شركة العمطار لتحقيق أكبر حصة سوقية في مجالها.',
     'history.milestone.3': 'قاد إعادة هيكلة شركة M&A الفداغي.',
@@ -151,6 +155,8 @@ const translations = {
     // History
     'history.title': 'Наш путь',
     'history.milestones': 'Ключевые вехи',
+    'history.intro.title': 'История',
+    'history.intro.text': 'Моя семья занимается бизнесом более 70 лет, и я начал работать с ними в начале 1980-х годов. Я начал свой путь с технической стороны и продвинулся до управленческой. За последние 40 лет я управлял, создавал, реструктурировал, объединял и приобретал различные компании в областях сельского хозяйства, сельскохозяйственной техники, автомобилей, энергетики, телекоммуникаций и программного обеспечения, возобновляемой энергии и продуктов питания.\n\nНекоторые из вышеупомянутых компаний находились в Саудовской Аравии, Дубае, Италии, Англии, Финляндии, Китае и США.',
     'history.milestone.1': 'Помогал создать компании M&A Co Alfaddaghi Co и Alamttar Corp.',
     'history.milestone.2': 'Управлял Alamttar Corp для достижения наибольшей доли рынка в своей области.',
     'history.milestone.3': 'Руководил реструктуризацией M&A Co Alfaddaghi.',
