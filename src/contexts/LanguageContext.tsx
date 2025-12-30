@@ -23,7 +23,7 @@ const translations = {
     
     // About
     'about.title': 'Welcome to Merit Business',
-    'about.intro': 'Message from the President\n\nWelcome to Merit Business webpage, Merit Business is a management and investment company that oversee the owner existing companies and investments. It is also focused on new opportunities in a variety of fields such as: Energy, renewable and recycling, innovative purchasing, communication systems, data centers, medical, novelty food and new innovations. We are also capable of giving advice and consultancy to large newcomers to the market interested in gaining foothold in the local market with best possible setup.\n\nFounder and President\nAli M Alfaddaghi',
+    'about.intro': 'Message from the President\n\nWelcome to Merit Business webpage, Merit Business is a management and investment company that oversee the owner existing companies and investments. It is also focused on new opportunities in a variety of fields such as: Energy, renewable and recycling, innovative purchasing, communication systems, data centers, medical, Agriculture, novelty food and new innovations. We are also capable of giving advice and consultancy to large newcomers to the market interested in gaining foothold in the local market with best possible setup.\n\nFounder and President\nAli M Alfaddaghi',
     'about.address': 'Address',
     'about.addressValue': '7991-Alryan Riyadh, 14211, Kingdom of Saudi Arabia',
     
@@ -86,7 +86,7 @@ const translations = {
     
     // About
     'about.title': 'مرحباً بكم في ميريت للأعمال',
-    'about.intro': 'رسالة من الرئيس\n\nمرحباً بكم في صفحة ميريت للأعمال. ميريت للأعمال هي شركة إدارة واستثمار تشرف على شركات واستثمارات المالك الحالية. كما تركز على الفرص الجديدة في مجالات متنوعة مثل: الطاقة والطاقة المتجددة وإعادة التدوير، والمشتريات المبتكرة، وأنظمة الاتصالات، ومراكز البيانات، والطب، والأغذية المبتكرة والابتكارات الجديدة. كما نقدم الاستشارات للشركات الكبيرة الجديدة في السوق المهتمة بتأسيس موطئ قدم في السوق المحلي بأفضل هيكل ممكن.\n\nالمؤسس والرئيس\nعلي م الفداغي',
+    'about.intro': 'رسالة من الرئيس\n\nمرحباً بكم في صفحة ميريت للأعمال. ميريت للأعمال هي شركة إدارة واستثمار تشرف على شركات واستثمارات المالك الحالية. كما تركز على الفرص الجديدة في مجالات متنوعة مثل: الطاقة والطاقة المتجددة وإعادة التدوير، والمشتريات المبتكرة، وأنظمة الاتصالات، ومراكز البيانات، والقطاع الطبي، والزراعة، والأغذية المبتكرة والابتكارات الجديدة. كما نقدم الاستشارات للشركات الكبيرة الجديدة في السوق المهتمة بتأسيس موطئ قدم في السوق المحلي بأفضل هيكل ممكن.\n\nالمؤسس والرئيس\nعلي محمد الفداغي',
     'about.address': 'العنوان',
     'about.addressValue': '٧٩٩١-الريان الرياض، ١٤٢١١، المملكة العربية السعودية',
     
@@ -149,7 +149,7 @@ const translations = {
     
     // About
     'about.title': 'Добро пожаловать в Merit Business',
-    'about.intro': 'Обращение президента\n\nДобро пожаловать на сайт Merit Business. Merit Business — это управляющая и инвестиционная компания, осуществляющая надзор за существующими компаниями и инвестициями владельца. Компания также фокусируется на новых возможностях в различных областях: энергетика, возобновляемые источники энергии и переработка, инновационные закупки, системы связи, центры обработки данных, медицина, инновационные продукты питания и новые технологии. Мы также предоставляем консультационные услуги крупным новым участникам рынка, заинтересованным в закреплении позиций на местном рынке с оптимальной структурой бизнеса.\n\nОснователь и президент\nАли М. Альфаддаги',
+    'about.intro': 'Обращение президента\n\nДобро пожаловать на сайт Merit Business. Merit Business — это управляющая и инвестиционная компания, осуществляющая надзор за существующими компаниями и инвестициями владельца. Компания также фокусируется на новых возможностях в различных областях: энергетика, возобновляемые источники энергии и переработка, инновационные закупки, системы связи, центры обработки данных, медицина, сельское хозяйство, инновационные продукты питания и новые технологии. Мы также предоставляем консультационные услуги крупным новым участникам рынка, заинтересованным в закреплении позиций на местном рынке с оптимальной структурой бизнеса.\n\nОснователь и президент\nАли М. Альфаддаги',
     'about.address': 'Адрес',
     'about.addressValue': '7991-Альриян, Эр-Рияд, 14211, Королевство Саудовская Аравия',
     
