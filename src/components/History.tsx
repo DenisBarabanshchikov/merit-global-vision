@@ -23,6 +23,7 @@ const History = () => {
     { year: '2017', eventKey: 'history.milestone.15' },
     { year: '2019-Present', eventKey: 'history.milestone.16' },
     { year: '2022', eventKey: 'history.milestone.17' },
+    { year: '2025', eventKey: 'history.milestone.19' },
   ];
 
   return (
