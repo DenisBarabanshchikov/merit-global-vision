@@ -60,6 +60,7 @@ const translations = {
     'history.milestone.15': 'Formed Bravo Solar Energy Systems Dubai UAE. The company is an EPC solar and battery management system. One of the main projects in 2019 was to deliver rooftop solar system for over 1000 villas in Dubai for Dubai Carbon a DEWA company. Another main project in 2022 was to design, supply and install the first of its kind carport project with storage system and EV\'s charging stations in NEOM.',
     'history.milestone.16': 'Chairman of the board of Alfaddaghi Group. During this period legal entity of some of the member companies were changed to joint stocks and corporate governance was enhanced. Doubled the capital. More manufacturing processes were automated and quality were improved. Sales and profitability were increased. New products were introduced. Brand recognition was amplified. Many awards, Medals and prizes were awarded to our companies, and the highest one was MODON award for innovation and leadership.',
     'history.milestone.17': 'Won an award from Saudi Aramco for a distinction and leadership as an innovator in entrepreneurship.',
+    'history.milestone.18': 'Formed MARAT Corporation in Oregon, USA. MARAT was primarily a food and beverage company specializing in healthy food and healthy ice cream (Yogurt Ice cream).',
     
     // Contact
     'contact.title': 'Get in Touch',
@@ -120,6 +121,7 @@ const translations = {
     'history.milestone.15': 'تأسيس شركة برافو لأنظمة الطاقة الشمسية دبي الإمارات. الشركة متخصصة في EPC للطاقة الشمسية وأنظمة إدارة البطاريات. من أهم المشاريع في 2019 تسليم نظام طاقة شمسية على أسطح أكثر من 1000 فيلا في دبي لشركة دبي كربون التابعة لديوا. مشروع رئيسي آخر في 2022 لتصميم وتوريد وتركيب أول مشروع من نوعه لمظلات السيارات مع نظام تخزين ومحطات شحن السيارات الكهربائية في نيوم.',
     'history.milestone.16': 'رئيس مجلس إدارة مجموعة الفداغي. خلال هذه الفترة تم تغيير الكيان القانوني لبعض الشركات الأعضاء إلى شركات مساهمة وتم تعزيز حوكمة الشركات. مضاعفة رأس المال. أتمتة المزيد من عمليات التصنيع وتحسين الجودة. زيادة المبيعات والربحية. إدخال منتجات جديدة. تعزيز الاعتراف بالعلامة التجارية. منح العديد من الجوائز والميداليات لشركاتنا، وأعلاها جائزة مدن للابتكار والقيادة.',
     'history.milestone.17': 'الفوز بجائزة من أرامكو السعودية للتميز والقيادة كمبتكر في ريادة الأعمال.',
+    'history.milestone.18': 'تأسيس شركة مارات في ولاية أوريغون بالولايات المتحدة الأمريكية. تخصصت الشركة في قطاع الأغذية والمشروبات الصحية، مع التركيز على المنتجات الغذائية الصحية والمثلجات الصحية (مثلجات الزبادي).',
     
     // Contact
     'contact.title': 'تواصل معنا',
@@ -180,6 +182,7 @@ const translations = {
     'history.milestone.15': 'Основание компании Bravo Solar Energy Systems в Дубае, ОАЭ. Компания специализируется на EPC-проектах в области солнечной энергетики и систем управления накоплением энергии. Среди ключевых проектов: в 2019 году — установка кровельных солнечных систем для более чем 1000 вилл в Дубае для Dubai Carbon (компания DEWA); в 2022 году — проектирование, поставка и монтаж первого в своём роде проекта солнечных навесов с системой накопления энергии и зарядными станциями для электромобилей в NEOM.',
     'history.milestone.16': 'Председатель совета директоров Alfaddaghi Group. В этот период ряд дочерних компаний был преобразован в акционерные общества, усилено корпоративное управление. Капитал удвоен. Расширена автоматизация производственных процессов, повышено качество продукции. Достигнут рост продаж и прибыльности. Выведены на рынок новые продукты. Усилена узнаваемость бренда. Компании группы удостоены многочисленных наград и почётных знаков, высшей из которых стала премия MODON за инновации и лидерство.',
     'history.milestone.17': 'Получение награды Saudi Aramco за выдающиеся достижения и лидерство в области инновационного предпринимательства.',
+    'history.milestone.18': 'Основание корпорации MARAT в штате Орегон, США. Компания специализировалась на производстве продуктов питания и напитков, уделяя особое внимание здоровому питанию и полезному мороженому (йогуртовое мороженое).',
     
     // Contact
     'contact.title': 'Свяжитесь с нами',
