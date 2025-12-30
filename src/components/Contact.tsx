@@ -1,5 +1,5 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Mail } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 
 const Contact = () => {
   const { t, language } = useLanguage();
@@ -16,22 +16,43 @@ const Contact = () => {
             {t('contact.subtitle')}
           </p>
           
-          <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
-            <div className="flex items-center justify-center gap-4 mb-6">
-              <div className="bg-accent/10 p-4 rounded-full">
-                <Mail className="w-8 h-8 text-accent" />
+          <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 space-y-8">
+            {/* Email */}
+            <div>
+              <div className="flex items-center justify-center gap-4 mb-4">
+                <div className="bg-accent/10 p-4 rounded-full">
+                  <Mail className="w-8 h-8 text-accent" />
+                </div>
+                <h3 className="text-2xl font-semibold text-primary">
+                  {t('contact.email')}
+                </h3>
               </div>
-              <h3 className="text-2xl font-semibold text-primary">
-                {t('contact.email')}
-              </h3>
+              <a 
+                href="mailto:aalfaddaghi@gmail.com"
+                className="inline-block text-xl text-accent hover:text-primary transition-colors font-medium"
+              >
+                aalfaddaghi@gmail.com
+              </a>
             </div>
-            
-            <a 
-              href="mailto:aalfaddaghi@gmail.com"
-              className="inline-block text-xl text-accent hover:text-primary transition-colors font-medium"
-            >
-              aalfaddaghi@gmail.com
-            </a>
+
+            {/* Phone */}
+            <div>
+              <div className="flex items-center justify-center gap-4 mb-4">
+                <div className="bg-accent/10 p-4 rounded-full">
+                  <Phone className="w-8 h-8 text-accent" />
+                </div>
+                <h3 className="text-2xl font-semibold text-primary">
+                  {t('contact.phone')}
+                </h3>
+              </div>
+              <a 
+                href="tel:+966554062242"
+                className="inline-block text-xl text-accent hover:text-primary transition-colors font-medium"
+                dir="ltr"
+              >
+                +966 55 406 2242
+              </a>
+            </div>
           </div>
         </div>
       </div>

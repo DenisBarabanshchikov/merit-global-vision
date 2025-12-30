@@ -66,6 +66,7 @@ const translations = {
     // Contact
     'contact.title': 'Get in Touch',
     'contact.email': 'Email',
+    'contact.phone': 'Phone',
     'contact.subtitle': 'For business inquiries and partnerships',
     
     // Footer
@@ -128,6 +129,7 @@ const translations = {
     // Contact
     'contact.title': 'تواصل معنا',
     'contact.email': 'البريد الإلكتروني',
+    'contact.phone': 'الهاتف',
     'contact.subtitle': 'للاستفسارات التجارية والشراكات',
     
     // Footer
@@ -190,6 +192,7 @@ const translations = {
     // Contact
     'contact.title': 'Свяжитесь с нами',
     'contact.email': 'Электронная почта',
+    'contact.phone': 'Телефон',
     'contact.subtitle': 'По вопросам делового сотрудничества и партнёрства',
     
     // Footer
