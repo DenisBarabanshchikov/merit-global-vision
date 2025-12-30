@@ -39,8 +39,8 @@ const translations = {
     'portfolio.visit': 'Visit Website',
     
     // History
-    'history.title': 'Our Journey',
-    'history.milestones': 'Key Milestones',
+    'history.title': 'Milestones of the President Achievements',
+    'history.milestones': 'Key Achievements',
     'history.intro.title': 'History',
     'history.intro.text': 'Alfaddaghi Family has been in business for more than 70 years and Mr. Ali M Alfaddaghi has started in business with them in the early 1980s. He started his journey in the technical side and moved his way up to the management side. During the past 40 years he has managed, formed, restructured, merged and acquired different companies in the fields of Agriculture, Agriculture machinery, Auto, power generation, telecommunication and software, renewable energy and food and beverage.\n\nSome of the above companies were in Saudi Arabia, Dubai, Italy, England, Finland, China and The United States.',
     'history.milestone.1': 'Helped establish M&A Alfaddaghi Co for Agriculture machinery and Alamttar Corp for universal equipment. Both company are in the agriculture fields.',
@@ -99,8 +99,8 @@ const translations = {
     'portfolio.visit': 'زيارة الموقع',
     
     // History
-    'history.title': 'رحلتنا',
-    'history.milestones': 'المعالم الرئيسية',
+    'history.title': 'إنجازات الرئيس التنفيذي',
+    'history.milestones': 'أبرز الإنجازات',
     'history.intro.title': 'التاريخ',
     'history.intro.text': 'تمتد مسيرة عائلة الفداغي في عالم الأعمال لأكثر من سبعين عاماً، وقد انضم السيد علي محمد الفداغي إلى هذه المسيرة في مطلع الثمانينيات الميلادية. بدأ رحلته المهنية في القطاع التقني، ثم تدرج ليتولى المناصب الإدارية العليا. على مدار الأربعين عاماً الماضية، تولى إدارة وتأسيس وإعادة هيكلة واندماج واستحواذ العديد من الشركات في قطاعات الزراعة والمعدات الزراعية والسيارات وتوليد الطاقة والاتصالات والبرمجيات والطاقة المتجددة والأغذية والمشروبات.\n\nتمتد أعمال هذه الشركات عبر دول متعددة تشمل المملكة العربية السعودية ودبي وإيطاليا وإنجلترا وفنلندا والصين والولايات المتحدة الأمريكية.',
     'history.milestone.1': 'ساعد في تأسيس شركة M&A الفداغي للآلات الزراعية وشركة العمطار للمعدات العالمية. كلتا الشركتين في مجال الزراعة.',
@@ -159,8 +159,8 @@ const translations = {
     'portfolio.visit': 'Перейти на сайт',
     
     // History
-    'history.title': 'Наш путь',
-    'history.milestones': 'Ключевые этапы развития',
+    'history.title': 'Достижения Президента компании',
+    'history.milestones': 'Ключевые достижения',
     'history.intro.title': 'История',
     'history.intro.text': 'Семья Альфаддаги ведёт предпринимательскую деятельность на протяжении более семидесяти лет. Господин Али М. Альфаддаги присоединился к семейному бизнесу в начале 1980-х годов. Свою профессиональную карьеру он начал в техническом направлении, последовательно продвигаясь к руководящим позициям. За последние сорок лет под его руководством осуществлялось управление, создание, реструктуризация, слияние и поглощение различных компаний в таких отраслях, как сельское хозяйство, сельскохозяйственное машиностроение, автомобильная промышленность, энергогенерация, телекоммуникации и программное обеспечение, возобновляемая энергетика, а также пищевая промышленность.\n\nГеография деятельности указанных компаний охватывает Саудовскую Аравию, Дубай, Италию, Великобританию, Финляндию, Китай и Соединённые Штаты Америки.',
     'history.milestone.1': 'Участие в создании компании M&A Alfaddaghi Co, специализирующейся на сельскохозяйственной технике, и корпорации Alamttar Corp, занимающейся универсальным оборудованием. Обе компании работают в аграрном секторе.',
