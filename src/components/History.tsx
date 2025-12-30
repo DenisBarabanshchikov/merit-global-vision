@@ -13,6 +13,7 @@ const History = () => {
     { year: '1990', eventKey: 'history.milestone.6' },
     { year: '1992', eventKey: 'history.milestone.7' },
     { year: '1994', eventKey: 'history.milestone.8' },
+    { year: '1994-1995', eventKey: 'history.milestone.18' },
     { year: '1995', eventKey: 'history.milestone.9' },
     { year: '1997', eventKey: 'history.milestone.10' },
     { year: '2005', eventKey: 'history.milestone.11' },
