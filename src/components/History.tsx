@@ -39,12 +39,13 @@ const History = () => {
           </div>
         </div>
 
-        {/* Our Journey Section */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+        {/* President Achievements Section */}
+        <div className="text-center mb-12">
+          <h2 className="text-2xl md:text-3xl font-semibold text-primary mb-2">
             {t('history.title')}
           </h2>
-          <p className="text-lg text-muted-foreground">
+          <div className="w-24 h-1 bg-accent mx-auto rounded-full mb-3" />
+          <p className="text-sm text-muted-foreground tracking-wide uppercase">
             {t('history.milestones')}
           </p>
         </div>
