@@ -13,7 +13,7 @@
        name: t('team.ali.name'),
        title: t('team.ali.title'),
        subtitle: '',
-       description: '',
+        description: t('team.ali.description'),
        email: 'ali@merit.business',
        photo: aliPhoto,
      },
