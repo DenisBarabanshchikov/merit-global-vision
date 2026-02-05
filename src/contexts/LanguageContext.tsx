@@ -72,7 +72,7 @@ const translations = {
     
      // Team
      'team.title': 'Our Leadership Team',
-     'team.subtitle': 'Meet the executives driving our vision forward',
+     'team.subtitle': 'Meet the team driving our vision forward',
      'team.ali.name': 'Ali M Alfaddaghi',
      'team.ali.title': 'Founder and President',
      'team.ali.description': 'Visionary leader with over 40 years of experience in management and investment across diverse sectors including energy, agriculture, telecommunications, and renewable energy. Founded and led multiple successful enterprises across Saudi Arabia, UAE, Europe, and the USA.',
@@ -151,7 +151,7 @@ const translations = {
     
      // Team
      'team.title': 'فريق القيادة',
-     'team.subtitle': 'تعرّف على المسؤولين التنفيذيين الذين يقودون رؤيتنا نحو المستقبل',
+     'team.subtitle': 'تعرّف على الفريق الذي يقود رؤيتنا نحو المستقبل',
      'team.ali.name': 'علي محمد الفداغي',
      'team.ali.title': 'المؤسس والرئيس',
      'team.ali.description': 'قائد صاحب رؤية يتمتع بخبرة تتجاوز 40 عاماً في الإدارة والاستثمار عبر قطاعات متنوعة تشمل الطاقة والزراعة والاتصالات والطاقة المتجددة. أسس وقاد العديد من المؤسسات الناجحة في المملكة العربية السعودية والإمارات وأوروبا والولايات المتحدة الأمريكية.',
@@ -230,7 +230,7 @@ const translations = {
     
      // Team
      'team.title': 'Руководство компании',
-     'team.subtitle': 'Познакомьтесь с руководителями, воплощающими наше видение в жизнь',
+     'team.subtitle': 'Познакомьтесь с командой, воплощающей наше видение в жизнь',
      'team.ali.name': 'Али М. Альфаддаги',
      'team.ali.title': 'Основатель и президент',
      'team.ali.description': 'Дальновидный лидер с более чем 40-летним опытом в управлении и инвестициях в различных отраслях: энергетика, сельское хозяйство, телекоммуникации и возобновляемая энергетика. Основал и возглавил множество успешных предприятий в Саудовской Аравии, ОАЭ, Европе и США.',
