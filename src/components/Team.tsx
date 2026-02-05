@@ -17,22 +17,22 @@
        email: 'ali@merit.business',
        photo: aliPhoto,
      },
-     {
-       name: t('team.renat.name'),
-       title: t('team.renat.title'),
-       subtitle: t('team.renat.subtitle'),
-       description: t('team.renat.description'),
-       email: 'renat@merit.business',
-       photo: renatPhoto,
-     },
-     {
-       name: t('team.vasily.name'),
-       title: t('team.vasily.title'),
-       subtitle: t('team.vasily.subtitle'),
-       description: t('team.vasily.description'),
-       email: 'vasilev@merit.business',
-       photo: vasilyPhoto,
-     },
+    {
+      name: t('team.vasily.name'),
+      title: t('team.vasily.title'),
+      subtitle: t('team.vasily.subtitle'),
+      description: t('team.vasily.description'),
+      email: 'vasilev@merit.business',
+      photo: vasilyPhoto,
+    },
+    {
+      name: t('team.renat.name'),
+      title: t('team.renat.title'),
+      subtitle: t('team.renat.subtitle'),
+      description: t('team.renat.description'),
+      email: 'renat@merit.business',
+      photo: renatPhoto,
+    },
    ];
  
    return (
