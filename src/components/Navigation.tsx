@@ -81,6 +81,15 @@ const Navigation = () => {
               {t('nav.history')}
             </a>
             <a 
+              href="#team"
+              onClick={(e) => handleSmoothScroll(e, '#team')}
+              className={`font-medium hover:text-accent transition-colors ${
+                scrolled ? 'text-foreground' : 'text-white'
+              }`}
+            >
+              {t('nav.team')}
+            </a>
+            <a 
               href="#contact"
               onClick={(e) => handleSmoothScroll(e, '#contact')}
               className={`font-medium hover:text-accent transition-colors ${

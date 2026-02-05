@@ -15,6 +15,7 @@ const translations = {
     'nav.vision': 'Vision & Mission',
     'nav.portfolio': 'Portfolio',
     'nav.history': 'History',
+    'nav.team': 'Team',
     'nav.contact': 'Contact',
     
     // Hero
@@ -93,6 +94,7 @@ const translations = {
     'nav.vision': 'الرؤية والرسالة',
     'nav.portfolio': 'محفظة الأعمال',
     'nav.history': 'التاريخ',
+    'nav.team': 'الفريق',
     'nav.contact': 'اتصل بنا',
     
     // Hero
@@ -171,6 +173,7 @@ const translations = {
     'nav.vision': 'Видение и миссия',
     'nav.portfolio': 'Портфолио',
     'nav.history': 'История',
+    'nav.team': 'Команда',
     'nav.contact': 'Контакты',
     
     // Hero
