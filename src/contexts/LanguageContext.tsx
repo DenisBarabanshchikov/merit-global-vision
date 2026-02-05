@@ -69,6 +69,20 @@ const translations = {
     'contact.phone': 'Phone',
     'contact.subtitle': 'For business inquiries and partnerships',
     
+     // Team
+     'team.title': 'Our Leadership Team',
+     'team.subtitle': 'Meet the executives driving our vision forward',
+     'team.ali.name': 'Ali M Alfaddaghi',
+     'team.ali.title': 'Founder and President',
+     'team.renat.name': 'Renat Muradaliev',
+     'team.renat.title': 'Vice President, Merit Business',
+     'team.renat.subtitle': 'Head of Eurasian Union Relations',
+     'team.renat.description': 'Industrial developer with over 13 years of experience. Focuses on the development of industrial and technology parks from scratch in Russia and GCC countries, and on managing cross-border industrial projects.',
+     'team.vasily.name': 'Vasily Vasiliev',
+     'team.vasily.title': 'Vice President, Merit Business',
+     'team.vasily.subtitle': 'Head of GCC Relations',
+     'team.vasily.description': 'Expert in industrial and warehouse real estate with over 14 years of experience. Specializes in development and investment projects in Russia and GCC countries, and in building strategic partnerships across Middle Eastern markets.',
+     
     // Footer
     'footer.rights': '© 2025 Merit Business. All rights reserved.',
   },
@@ -132,6 +146,20 @@ const translations = {
     'contact.phone': 'الهاتف',
     'contact.subtitle': 'للاستفسارات التجارية والشراكات',
     
+     // Team
+     'team.title': 'فريق القيادة',
+     'team.subtitle': 'تعرّف على المسؤولين التنفيذيين الذين يقودون رؤيتنا نحو المستقبل',
+     'team.ali.name': 'علي محمد الفداغي',
+     'team.ali.title': 'المؤسس والرئيس',
+     'team.renat.name': 'رينات مورادالييف',
+     'team.renat.title': 'نائب الرئيس، ميريت للأعمال',
+     'team.renat.subtitle': 'رئيس علاقات الاتحاد الأوراسي',
+     'team.renat.description': 'مطوّر صناعي يتمتع بخبرة تتجاوز 13 عاماً. يركز على تطوير المناطق الصناعية والتقنية من الصفر في روسيا ودول مجلس التعاون الخليجي، وعلى إدارة المشاريع الصناعية العابرة للحدود.',
+     'team.vasily.name': 'فاسيلي فاسيلييف',
+     'team.vasily.title': 'نائب الرئيس، ميريت للأعمال',
+     'team.vasily.subtitle': 'رئيس علاقات دول مجلس التعاون الخليجي',
+     'team.vasily.description': 'خبير في العقارات الصناعية والمستودعات يتمتع بخبرة تتجاوز 14 عاماً. متخصص في مشاريع التطوير والاستثمار في روسيا ودول مجلس التعاون الخليجي، وفي بناء الشراكات الاستراتيجية في أسواق الشرق الأوسط.',
+     
     // Footer
     'footer.rights': '© ٢٠٢٥ ميريت للأعمال. جميع الحقوق محفوظة.',
   },
@@ -195,6 +223,20 @@ const translations = {
     'contact.phone': 'Телефон',
     'contact.subtitle': 'По вопросам делового сотрудничества и партнёрства',
     
+     // Team
+     'team.title': 'Руководство компании',
+     'team.subtitle': 'Познакомьтесь с руководителями, воплощающими наше видение в жизнь',
+     'team.ali.name': 'Али М. Альфаддаги',
+     'team.ali.title': 'Основатель и президент',
+     'team.renat.name': 'Ренат Мурадалиев',
+     'team.renat.title': 'Вице-президент Merit Business',
+     'team.renat.subtitle': 'Руководитель направления по связям с Евразийским союзом',
+     'team.renat.description': 'Специалист по промышленному развитию с более чем 13-летним опытом работы. Специализируется на создании индустриальных и технологических парков с нуля в России и странах Персидского залива, а также на управлении трансграничными промышленными проектами.',
+     'team.vasily.name': 'Василий Васильев',
+     'team.vasily.title': 'Вице-президент Merit Business',
+     'team.vasily.subtitle': 'Руководитель направления по связям со странами Персидского залива',
+     'team.vasily.description': 'Эксперт в области промышленной и складской недвижимости с более чем 14-летним опытом работы. Специализируется на девелоперских и инвестиционных проектах в России и странах Персидского залива, а также на построении стратегических партнёрств на рынках Ближнего Востока.',
+     
     // Footer
     'footer.rights': '© 2025 Merit Business. Все права защищены.',
   },

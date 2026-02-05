@@ -5,6 +5,7 @@ import About from '@/components/About';
 import VisionMission from '@/components/VisionMission';
 import Portfolio from '@/components/Portfolio';
 import History from '@/components/History';
+ import Team from '@/components/Team';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -18,6 +19,7 @@ const Index = () => {
         <VisionMission />
         <Portfolio />
         <History />
+         <Team />
         <Contact />
         <Footer />
       </div>
