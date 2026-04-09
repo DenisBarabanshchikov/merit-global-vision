@@ -84,6 +84,10 @@ const translations = {
      'team.vasily.title': 'Vice President, Merit Business',
      'team.vasily.subtitle': 'Head of GCC Relations',
      'team.vasily.description': 'Expert in industrial and warehouse real estate with over 14 years of experience. Specializes in development and investment projects in Russia and GCC countries, and in building strategic partnerships across Middle Eastern markets.',
+     'team.mariia.name': 'Mariia Malakhova',
+     'team.mariia.title': 'Managing Partner',
+     'team.mariia.subtitle': 'Industrial Platform Development',
+     'team.mariia.description': 'International executive with over 15 years of experience in construction, industrial development, and urban transformation. Proven CEO-level experience in managing production assets and delivering large-scale infrastructure projects. Leads the development of international industrial platforms, including innovative solutions in photocatalytic technologies and sustainable materials, with a focus on Net Zero and next-generation urban solutions across the UAE, GCC, and MENA region.',
      
     // Footer
     'footer.rights': '© 2025 Merit Business. All rights reserved.',
@@ -163,6 +167,10 @@ const translations = {
      'team.vasily.title': 'نائب الرئيس، ميريت للأعمال',
      'team.vasily.subtitle': 'رئيس علاقات دول مجلس التعاون الخليجي',
      'team.vasily.description': 'خبير في العقارات الصناعية والمستودعات يتمتع بخبرة تتجاوز 14 عاماً. متخصص في مشاريع التطوير والاستثمار في روسيا ودول مجلس التعاون الخليجي، وفي بناء الشراكات الاستراتيجية في أسواق الشرق الأوسط.',
+     'team.mariia.name': 'ماريا مالاخوفا',
+     'team.mariia.title': 'شريك إداري',
+     'team.mariia.subtitle': 'تطوير المنصات الصناعية',
+     'team.mariia.description': 'مسؤولة تنفيذية دولية تتمتع بخبرة تتجاوز 15 عاماً في البناء والتطوير الصناعي والتحول الحضري. تمتلك خبرة على مستوى الرؤساء التنفيذيين في إدارة الأصول الإنتاجية وتنفيذ مشاريع البنية التحتية الكبرى. تقود تطوير المنصات الصناعية الدولية بما في ذلك الحلول المبتكرة في تقنيات التحفيز الضوئي والمواد المستدامة، مع التركيز على الحياد الكربوني وحلول المدن المستقبلية في الإمارات ودول الخليج ومنطقة الشرق الأوسط وشمال أفريقيا.',
      
     // Footer
     'footer.rights': '© ٢٠٢٥ ميريت للأعمال. جميع الحقوق محفوظة.',
@@ -242,6 +250,10 @@ const translations = {
      'team.vasily.title': 'Вице-президент Merit Business',
      'team.vasily.subtitle': 'Руководитель направления по связям со странами Персидского залива',
      'team.vasily.description': 'Эксперт в области промышленной и складской недвижимости с более чем 14-летним опытом работы. Специализируется на девелоперских и инвестиционных проектах в России и странах Персидского залива, а также на построении стратегических партнёрств на рынках Ближнего Востока.',
+     'team.mariia.name': 'Мария Малахова',
+     'team.mariia.title': 'Управляющий партнёр',
+     'team.mariia.subtitle': 'Развитие индустриальных платформ',
+     'team.mariia.description': 'Международный руководитель с более чем 15-летним опытом в строительстве, промышленном развитии и городской трансформации. Подтверждённый опыт на уровне генерального директора в управлении производственными активами и реализации крупных инфраструктурных проектов. Руководит развитием международных индустриальных платформ, включая инновационные решения в области фотокаталитических технологий и устойчивых материалов, с фокусом на углеродную нейтральность и городские решения нового поколения в ОАЭ, странах Персидского залива и региона MENA.',
      
     // Footer
     'footer.rights': '© 2025 Merit Business. Все права защищены.',

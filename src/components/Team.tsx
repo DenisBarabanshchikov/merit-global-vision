@@ -1,8 +1,9 @@
  import { useLanguage } from '@/contexts/LanguageContext';
  import { Mail } from 'lucide-react';
- import aliPhoto from '@/assets/team-ali.jpg';
- import renatPhoto from '@/assets/team-renat.jpg';
- import vasilyPhoto from '@/assets/team-vasily.jpg';
+import aliPhoto from '@/assets/team-ali.jpg';
+import renatPhoto from '@/assets/team-renat.jpg';
+import vasilyPhoto from '@/assets/team-vasily.jpg';
+import mariiaPhoto from '@/assets/team-mariia.jpg';
  
  const Team = () => {
    const { t, language } = useLanguage();
@@ -32,8 +33,16 @@
       description: t('team.renat.description'),
       email: 'renat@merit.business',
       photo: renatPhoto,
-    },
-   ];
+     },
+     {
+       name: t('team.mariia.name'),
+       title: t('team.mariia.title'),
+       subtitle: t('team.mariia.subtitle'),
+       description: t('team.mariia.description'),
+       email: 'mb.recycling3@gmail.com',
+       photo: mariiaPhoto,
+     },
+    ];
  
    return (
      <section id="team" className="py-20 bg-secondary" dir={isRTL ? 'rtl' : 'ltr'}>
@@ -47,7 +56,7 @@
            </p>
          </div>
  
-         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
            {teamMembers.map((member, index) => (
              <div
                key={index}
