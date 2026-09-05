@@ -48,9 +48,9 @@
          </div>
  
          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-           {teamMembers.map((member, index) => (
+            {teamMembers.map((member) => (
              <div
-               key={index}
+                key={member.email}
                className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
              >
                <div className="aspect-square overflow-hidden">
